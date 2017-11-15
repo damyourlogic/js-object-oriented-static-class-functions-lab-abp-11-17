@@ -5,7 +5,7 @@ class Question {
   }
 
   static Find(id) {
-    return this.ALL()[id - 1]
+    return this.ALL()[id-1]
   }
   constructor(content){
     this.content = content;
