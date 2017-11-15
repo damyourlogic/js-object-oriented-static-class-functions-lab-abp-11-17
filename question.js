@@ -1,10 +1,10 @@
-
+'use strict';
 class Question {
   static All(){
     return this._All
   }
 
-  static Find()id {
+  static Find(id) {
     return this.ALL()[id - 1]
   }
   constructor(content){
