@@ -1,4 +1,4 @@
-'use strict';
+
 class Question {
   static All(){
     return this._All
@@ -15,7 +15,7 @@ class Question {
 save() {
   this.constructor._All.push(this)
   }
-  
+
 }
 
 Question._All = []
